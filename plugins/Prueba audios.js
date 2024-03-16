@@ -85,6 +85,13 @@ const vn = './media/Coger.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
+if (!chat.isBanned && m.text.match(/(Telepatía|telepatía|telepatia|Telepatia)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Telepatía.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+    
 if (!chat.isBanned && m.text.match(/(linda|Linda)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Linda.mp3';
