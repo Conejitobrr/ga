@@ -46,8 +46,6 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
         description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Tod@s son iguales. 🥲*`;
       }
       break;
-
-      
     case 'puto':
     case 'puta':
       emoji = '🔥🥵';
