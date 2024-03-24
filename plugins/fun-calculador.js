@@ -35,6 +35,19 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
         description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Mantén el buen trabajo (en solitario). 🙌*`;
       }
       break;
+    case 'infiel':
+    case 'infiel':
+      emoji = '🤢🤮';
+      if (percentages < 50) {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Tal vez necesites más hobbys,  cambia tu vida infiel! 😡*`;
+      } else if (percentages > 100) {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ No cambias ag contigo Infiel! 🤮*`;
+      } else {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Tod@s son iguales. 🥲*`;
+      }
+      break;
+
+      
     case 'puto':
     case 'puta':
       emoji = '🔥🥵';
@@ -113,5 +126,5 @@ loading()
 };
 handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map((v) => v + ' @tag | nombre');
 handler.tags = ['calculator'];
-handler.command = /^(gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto)$/i;
+handler.command = /^(gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto|infiel)$/i;
 export default handler;
