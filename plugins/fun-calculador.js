@@ -43,7 +43,7 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
       } else if (percentages > 100) {
         description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ terrible bandida eres, deja esa vida! 😤*`;
       } else {
-        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ uff ya te pasas de forajida 🥵*`;
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ uff ya te pasas de forajida. 🥵*`;
       }
       break;      
     case 'infiel':
