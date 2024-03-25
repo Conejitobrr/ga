@@ -35,6 +35,21 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
         description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Mantén el buen trabajo (en solitario). 🙌*`;
       }
       break;
+
+    case 'bandida':
+    case 'bandida':
+      emoji = '😏💦';
+      if (percentages < 50) {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Todavia puedes cambiar tu vida forajida, ya es hora! 🥲*`;
+      } else if (percentages > 100) {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ terrible bandida eres, deja esa vida! 😤*`;
+      } else {
+        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ uff ya te pasas de forajida 🥵*`;
+      }
+      break;
+
+
+      
     case 'infiel':
     case 'infiel':
       emoji = '🤢🤮';
