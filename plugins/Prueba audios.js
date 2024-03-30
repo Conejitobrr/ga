@@ -90,15 +90,85 @@ if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Telepatía.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
-
-    
+   
 if (!chat.isBanned && m.text.match(/(linda|Linda)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Linda.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
-    
+if (!chat.isBanned && m.text.match(/(araara|ara ara)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Ara.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(ho me vengo|oh me vengo|o me vengo|Ho me vengo|Oh me vengo|O me vengo)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/vengo.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(oni-chan|onichan|o-onichan)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Onichan.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(n Pato| un pato|un pato que va caminando alegremente|Un pato|Un Pato)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/pato.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(Me doxean|me doxean)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Me doxean.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(no es jueves|No es jueves)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/No es jueves.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(no digas|No digas)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/No digas.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(me voy|Me voy)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Me voy.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(yair|Yair)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Anco.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(Cáncer|cáncer)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Cáncer.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(Sexo|sexo)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/S3x0.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(Tetas|tetas)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Tetas.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
 if (!chat.isBanned && m.text.match(/(arrepientete|Arrepientete|Hijo|hijo)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Arrepientete.mp3';
