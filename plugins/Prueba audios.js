@@ -234,6 +234,12 @@ if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Chao.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+if (!chat.isBanned && m.text.match(/(Saoo|saoo)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Saoo.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
   
 if (!chat.isBanned && m.text.match(/(arrepientete|Arrepientete|Hijo|hijo)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
