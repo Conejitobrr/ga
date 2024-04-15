@@ -9,9 +9,9 @@ if (!text) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsMalused4}\n*${usedPrefix
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
-if (command === 'bulla') { 
+if (command === 'play') { 
 additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
-} else if (command === 'bulla2') {
+} else if (command === 'play2') {
 additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
 let captionvid = `𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
 
@@ -120,7 +120,7 @@ renderLargerThumbnail: true
 } catch {
 }}}}}
 }  
-if (command == 'bulla2') {
+if (command == 'play2') {
 try {
 let qu = '360'
 let q = qu + 'p'
@@ -148,7 +148,7 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 }} catch {
 handler.limit = 0
 }}
-handler.command = ['bulla', 'bulla2']
+handler.command = ['play', 'play2']
 handler.exp = 500
 handler.limit = 1
 export default handler
