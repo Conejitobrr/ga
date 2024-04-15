@@ -36,7 +36,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
     }
   }
 };
-handler.command = /^(hidetag|notificar|notify)$/i;
+handler.command = /^(notificar|notify)$/i;
 handler.group = true;
-handler.rowner = true;
+handler.admin = true;
 export default handler;
