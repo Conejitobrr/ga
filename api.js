@@ -9,7 +9,7 @@ import moment from 'moment-timezone';
 
 /* si quieres modificar esto y agregarr mas apis asegurate poner global.tuapi = ['apikey']  skid 🤑 */
 
-global.openai_key = 'sk-0';
+global.openai_key = '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';
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
 global.openai_org_id = 'org-3';
